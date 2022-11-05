@@ -2,5 +2,5 @@
 bingo multiple player board games using sockets io 
 
 
-## Deployement link:
+### Deployement link:
 https://bingo-by-sanjay.netlify.app/
