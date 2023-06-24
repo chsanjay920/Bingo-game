@@ -6,10 +6,10 @@ var bingo = [
     [16, 17, 18, 19, 20],
     [21, 22, 23, 24, 25]
 ];
-const socket = io('https://fathomless-harbor-13485.herokuapp.com/')
+
+const socket = io('https://bingo-game-server.onrender.com')
 
 socket.on('clicked-event', data => {
-    // console.log(data);
     clickAutomatically(data);
 })
 socket.on('game-status', status => {
